@@ -29,7 +29,7 @@
     <body>
         <!-- Nguyên tắc: làm từ tổng quan -> chi tiết, trên -> dưới -->
         <!-- Thẻ main giống thẻ div nhưng có thể hiện ngữ nghĩa -->
-        <main>
+        <main id="home">
             <!-- Header: phần đầu trang, giới thiệu trang -->
             <header class="fixed-header">
                 <div class="content">
@@ -41,11 +41,11 @@
 
                         <!-- Navigation -->
                         <ul>
-                            <li><a href="#!">Home</a></li>
-                            <li><a href="#!">Features</a></li>
-                            <li><a href="#!">Services</a></li>
-                            <li><a href="#!">Resources</a></li>
-                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#resources">Resources</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
 
                         <!-- Actions -->
@@ -128,7 +128,7 @@
             </div>
 
             <!-- Guide: phần hướng dẫn -->
-            <div class="guides">
+            <div class="guides" id="services">
                 <div class="content">
                     <h2 class="sub-title">How its works?</h2>
                     <p class="desc">
@@ -196,7 +196,7 @@
             </div>
 
             <!-- Featured: đặc sắc/tính năng -->
-            <div class="feature">
+            <div class="feature" id="features">
                 <div class="content">
                     <header>
                         <h2 class="sub-title">Featured Properties</h2>
@@ -348,7 +348,7 @@
             </div>
 
             <!-- Stats: số liệu thống kê -->
-            <div class="stats">
+            <div class="stats" id="resources">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -524,7 +524,7 @@
             </div>
 
             <!-- Subscription: phần đăng ký nhận thông tin -->
-            <div class="subscription">
+            <div class="subscription" id="contact">
                 <div class="content">
                     <div class="body">
                         <div class="info">
